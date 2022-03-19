@@ -3,6 +3,8 @@ import './App.css';
 import Home from './pages/Home'
 import Faqs from './pages/Faqs'
 import Project from './pages/Project';
+import Rarity from './pages/Rarity';
+
 import {
   BrowserRouter,
   Routes,
@@ -14,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/project" element={<Project />} />
+      <Route path="/rarity" element={<Rarity />} />
       <Route path="/faqs" element={<Faqs />} />
     </Routes>
   </BrowserRouter>
