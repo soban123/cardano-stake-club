@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home'
 import Faqs from './pages/Faqs'
+import Project from './pages/Project';
 import {
   BrowserRouter,
   Routes,
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/project" element={<Project />} />
       <Route path="/faqs" element={<Faqs />} />
     </Routes>
   </BrowserRouter>
